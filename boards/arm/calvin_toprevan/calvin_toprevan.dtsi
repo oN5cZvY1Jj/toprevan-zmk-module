@@ -14,7 +14,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
-#define EC_TRANSFORM(_name, _bottom_row)
+#define EC_TRANSFORM(_name, _bottom_row)                                                                  \
 	_name: _name {                                                                                            \
 		compatible = "zmk,matrix-transform";                                                              \
 		status = "disabled";                                                                              \
